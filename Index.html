@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Arthroplasty Evening with Stryker × Cambridge University Hospitals – RSVP</title>
+  <meta name="description" content="RSVP for the Arthroplasty Evening with Stryker at Cambridge University Hospitals – Clinical School, Seminar Room 3, 14 Oct 2025, 18:00–19:30." />
+  <style>
+    :root{
+      --bg:#ffffff; --ink:#0a0a0a; --muted:#5b5b5b; --brand:#111111; --border:#e8e8e8;
+      --accent:#1a73e8; /* can tweak to match CUH NHS blue if desired */
+    }
+    *,*:before,*:after{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;
+      color:var(--ink); background:var(--bg);
+    }
+    .wrap{min-height:100%; display:flex; flex-direction:column}
+    header{position:sticky; top:0; background:#fff8; backdrop-filter:saturate(1.2) blur(8px); border-bottom:1px solid var(--border);}
+    .container{max-width:960px; margin:0 auto; padding:16px}
+    .brandbar{display:flex; align-items:center; justify-content:space-between; gap:16px}
+    .logos{display:flex; align-items:center; gap:16px}
+    .logos img{height:40px; object-fit:contain}
+    .content{flex:1}
+    .hero{position:relative; overflow:hidden; border-bottom:1px solid var(--border)}
+    .hero-inner{position:relative; z-index:2; padding:32px 16px}
+    .watermark{position:absolute; inset:0; background-size:cover; background-position:center; opacity:0.1; filter:grayscale(100%);}
+    h1{margin:0 0 8px; font-size:clamp(24px,4vw,36px)}
+    .meta{color:var(--muted); font-size:14px}
+    .card{background:#fff; border:1px solid var(--border); border-radius:16px; padding:20px; box-shadow:0 8px 24px rgba(0,0,0,.06)}
+    form{display:grid; gap:16px}
+    label{font-weight:600; font-size:14px}
+    input[type="text"], textarea, select{
+      width:100%; padding:12px 14px; border:1px solid var(--border); border-radius:12px; font-size:16px; background:white;
+    }
+    textarea{min-height:96px; resize:vertical}
+    .row{display:grid; gap:12px; grid-template-columns:1fr;}
+    @media(min-width:640px){.row.two{grid-template-columns:1fr 1fr}}
+    .radio{
+      display:flex; gap:12px; align-items:center; flex-wrap:wrap;
+    }
+    .radio label{font-weight:500}
+    .radio input{margin-right:6px}
+    .hidden{display:none}
+    .btn{appearance:none; border:none; background:var(--accent); color:white; padding:12px 18px; border-radius:12px; font-weight:700; cursor:pointer; font-size:16px}
+    .btn:disabled{opacity:.6; cursor:not-allowed}
+    .note{font-size:12px; color:var(--muted)}
+    .success, .error{padding:12px 14px; border-radius:12px; font-size:14px}
+    .success{background:#e7f5e8; color:#1d6e2e; border:1px solid #bfe6c5}
+    .error{background:#fdecec; color:#9b1c1c; border:1px solid #f6c6c6}
+    footer{border-top:1px solid var(--border); font-size:12px; color:var(--muted)}
+    .sr-only{position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="container brandbar">
+      <div class="logos">
+        <!-- Replace src with your approved, copyright-cleared logo files -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Stryker_logo.svg" alt="Stryker" />
+        <span aria-hidden="true" style="opacity:.35">×</span>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Cambridge_University_Hospitals_NHS_FT.svg" alt="Cambridge University Hospitals" />
+      </div>
+      <div style="text-align:right">
+        <div style="font-size:12px; text-transform:uppercase; letter-spacing:.08em; color:var(--muted)">Cambridge University Hospitals</div>
+        <strong>Arthroplasty Evening with Stryker</strong>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <!-- Replace the URL below with your licensed/approved watermark image of a knee replacement -->
+    <div class="watermark" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/4/43/Surgeons_in_the_operating_room.jpg')"></div>
+    <div class="container hero-inner">
+      <h1>Arthroplasty Evening with Stryker</h1>
+      <p class="meta">Clinical School, Seminar Room 3 · Tuesday 14 October 2025 · 18:00–19:30</p>
+      <p class="meta">Consultants and trainees welcome. Hands‑on demos of knee arthroplasty systems. Light refreshments provided.</p>
+    </div>
+  </section>
+
+  <main class="content">
+    <div class="container" style="padding:24px 16px 48px">
+      <div class="card">
+        <form id="rsvpForm" novalidate>
+          <input type="hidden" name="event_slug" value="arthroplasty-evening-stryker-cuh-2025-10-14" />
+
+          <div>
+            <label for="full_name">Full name <span aria-hidden="true" style="color:#c00">*</span></label>
+            <input id="full_name" name="full_name" type="text" required placeholder="e.g., Dr Jane Smith" />
+          </div>
+
+          <div>
+            <span class="sr-only" id="attendLegend">Attendance</span>
+            <label for="attending_yes">Will you be attending?</label>
+            <div class="radio" role="group" aria-labelledby="attendLegend">
+              <label><input type="radio" name="attending" id="attending_yes" value="yes" required /> Yes</label>
+              <label><input type="radio" name="attending" id="attending_no" value="no" /> No</label>
+            </div>
+          </div>
+
+          <div id="attendingFields" class="hidden">
+            <div>
+              <label for="equipment">Specific equipment to demo / experience</label>
+              <textarea id="equipment" name="equipment" placeholder="e.g., Triathlon Total Knee, cementless components, navigation stack…"></textarea>
+            </div>
+            <div class="row two">
+              <div>
+                <label for="food">Staying for food?</label>
+                <select id="food" name="staying_for_food">
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+                </select>
+              </div>
+              <div>
+                <label for="dietary">Dietary requirements</label>
+                <input id="dietary" name="dietary" type="text" placeholder="e.g., vegetarian, halal, nut allergy…" />
+              </div>
+            </div>
+          </div>
+
+          <button id="submitBtn" class="btn" type="submit">Submit RSVP</button>
+          <div id="status" aria-live="polite" style="min-height:1.5em"></div>
+          <div class="note">By submitting, you consent to your details being stored for event administration. You may request deletion at any time.</div>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container" style="padding:16px">
+      © 2025 Cambridge University Hospitals · Stryker. All rights reserved.
+    </div>
+  </footer>
+</div>
+
+<script>
+  // ====== CONFIG: paste your Google Apps Script Web App URL here ======
+  const ENDPOINT_URL = "https://script.google.com/macros/s/AKfycbxZxqGbHPe-SN5Owd2PVW97Dy81CVrMUdjxt2DZtmoIZaHL6S-9tYGaBNorDNV_OI6Bbw/exec";
+
+  // Toggle conditional fields when attending = yes
+  const form = document.getElementById('rsvpForm');
+  const attendingFields = document.getElementById('attendingFields');
+  const statusEl = document.getElementById('status');
+  const submitBtn = document.getElementById('submitBtn');
+
+  form.addEventListener('change', () => {
+    const attending = form.attending.value;
+    attendingFields.classList.toggle('hidden', attending !== 'yes');
+  });
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    statusEl.textContent = '';
+    if (!form.full_name.value.trim()) {
+      statusEl.innerHTML = '<div class="error">Please enter your full name.</div>';
+      form.full_name.focus();
+      return;
+    }
+    if (!form.attending.value) {
+      statusEl.innerHTML = '<div class="error">Please select if you are attending.</div>';
+      return;
+    }
+
+    const data = {
+      event_slug: form.event_slug.value,
+      full_name: form.full_name.value.trim(),
+      attending: form.attending.value === 'yes',
+      equipment: form.equipment?.value?.trim() || '',
+      staying_for_food: (form.staying_for_food?.value || 'yes') === 'yes',
+      dietary: form.dietary?.value?.trim() || '',
+      user_agent: navigator.userAgent,
+      submitted_at: new Date().toISOString(),
+    };
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Submitting…';
+
+    try {
+      const res = await fetch(ENDPOINT_URL, {
+        method: 'POST',
+        mode: 'cors',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+      if (!res.ok) throw new Error('Network error');
+      const json = await res.json();
+      if (json.success) {
+        form.reset();
+        attendingFields.classList.add('hidden');
+        statusEl.innerHTML = '<div class="success">Thank you! Your response has been recorded.</div>';
+      } else {
+        throw new Error(json.message || 'Unknown error');
+      }
+    } catch (err) {
+      console.error(err);
+      statusEl.innerHTML = '<div class="error">Sorry, something went wrong. Please try again later.</div>';
+    } finally {
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Submit RSVP';
+    }
+  });
+</script>
+</body>
+</html>
